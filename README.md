@@ -1,4 +1,3 @@
-```markdown
 # 3AMLearn - AI-Powered Full-Stack University E-Learning Platform
 
 ## Project Overview
@@ -29,6 +28,7 @@
 ---
 
 ## Folder Structure
+
 ```
 
 /app - Next.js routes and server components (pages)
@@ -41,7 +41,7 @@ tailwind.config.js - Tailwind CSS config (dark mode, etc.)
 next.config.js - Next.js configuration
 package.json - NPM dependencies and scripts
 
-````
+```
 
 ---
 
@@ -50,7 +50,6 @@ package.json - NPM dependencies and scripts
 1. Clone the repo and navigate into the project folder.
 
 2. Create a Supabase project and add the following tables:
-
    - `courses` (schema example):
      ```
      create table courses (
@@ -64,6 +63,7 @@ package.json - NPM dependencies and scripts
      ```
 
 3. Seed sample courses:
+
 ````
 
 insert into courses (title, code, semester, description) values
@@ -127,4 +127,4 @@ npm run dev
 Feel free to open issues or pull requests for bugs, feature requests, or questions.
 
 Happy learning & building!
-```
+````
