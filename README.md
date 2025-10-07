@@ -73,7 +73,7 @@ package.json - NPM dependencies and scripts
      ````
 
 4. Configure `.env.local` file with your Supabase credentials:
-    -`.env.local` Configure:
+    - `.env.local` Configure:
    
         ```
         NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
