@@ -63,27 +63,25 @@ package.json - NPM dependencies and scripts
      ```
 
 3. Seed sample courses:
-
-````
-
-insert into courses (title, code, semester, description) values
-('Introduction to Computer Science', 'CS101', 1, 'Basics of computer science and programming.'),
-('Data Structures', 'CS201', 2, 'Study of data organization and algorithms.'),
-('Operating Systems', 'CS301', 3, 'Concepts of OS, concurrency, and memory management.');
-
-```
+   - `seed sample course`:
+     ````
+     insert into courses (title, code, semester, description) values
+     ('Introduction to Computer Science', 'CS101', 1, 'Basics of computer science and programming.'),
+     ('Data Structures', 'CS201', 2, 'Study of data organization and algorithms.'),
+     ('Operating Systems', 'CS301', 3, 'Concepts of OS, concurrency, and memory management.');
+     ```
+     ````
 
 4. Configure `.env.local` file with your Supabase credentials:
-```
-
-NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-
-```
+    -`.env.local` Configure:
+        ```
+        NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+        NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+        ```
 
 5. Install dependencies and run dev server:
-```
 
+```
 npm install
 npm run dev
 
@@ -127,4 +125,4 @@ npm run dev
 Feel free to open issues or pull requests for bugs, feature requests, or questions.
 
 Happy learning & building!
-````
+
