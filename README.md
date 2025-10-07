@@ -74,12 +74,13 @@ package.json - NPM dependencies and scripts
 
 4. Configure `.env.local` file with your Supabase credentials:
     -`.env.local` Configure:
+   
         ```
         NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
         NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
         ```
 
-5. Install dependencies and run dev server:
+6. Install dependencies and run dev server:
 
 ```
 npm install
